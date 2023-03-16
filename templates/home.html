@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="card shadow-lg p-3 mb-5 bg-white rounded" style="width:25rem;">
+                <img class="card-img-top" src="{{url_for('static', filename='1.png')}}" alt="Card image cap">
+                <div class="card-body">
+                    <b>HEART DISEASE</b>
+                  <p class="card-text">Coronary artery disease is a common heart condition that affects the major blood vessels that supply the heart muscle. Cholesterol deposits (plaques) in the heart arteries are usually the cause of coronary artery disease. The buildup of these plaques is called atherosclerosis. Atherosclerosis reduces blood flow to the heart and other parts of the body. It can lead to a heart attack, chest pain (angina) or stroke.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-5">
+            <div class="card shadow-lg p-3 mb-5 bg-white rounded" style="width:25rem;">
+                <img class="card-img-top" src="{{url_for('static', filename='2.png')}}" alt="Card image cap">
+                <div class="card-body">
+                    <b>LUNG DISEASE</b>
+                  <p class="card-text">Lung disease is any problem in the lungs that prevents the lungs from working properly. There are three main types of lung disease:Airway diseases, Lung tissue diseases, Lung circulation diseases.</p>
+                  <p>The most common lung diseases include:
+                    <ul>
+                        <li>Asthma</li>
+                        <li>Collapse of part or all of the lung</li>
+                        <li>Lung infection (pneumonia)</li>
+                        <li>Lung cancer</li>
+                    </ul>
+                   </p>
+                </div>
+              </div>
+        </div>         
+    </div>   
+</body>
+</html>
